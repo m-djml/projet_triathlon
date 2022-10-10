@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="904.0594233544239" y="1276.0">Action</node>
+    <node x="171.2991269841276" y="1636.0">Epreuve</node>
+    <node x="150.16763347763413" y="193.5">Spectateur</node>
+    <node x="943.7104195804201" y="751.0">Athlete</node>
+    <node x="1514.219696969697" y="1680.0">NameSingleton</node>
+    <node x="58.5" y="1502.0">PisteCyclable</node>
+    <node x="674.2114868464874" y="0.0">Personne</node>
+    <node x="539.0594233544239" y="1264.0">Piste</node>
+    <node x="299.3030303030303" y="481.0">Piscine</node>
+    <node x="543.9614868464874" y="127.0">Terrain</node>
+    <node x="1129.7114868464873" y="559.0">NePeutPasAvancerException</node>
+    <node x="1340.219696969697" y="1502.0">PisteCourse</node>
+    <node x="261.184423354424" y="1968.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Piste" target="Athlete">
+      <point x="129.0" y="-94.0" />
+      <point x="840.0594233544239" y="1234.0" />
+      <point x="962.7104195804201" y="1234.0" />
+      <point x="-95.0" y="226.5" />
+    </edge>
+    <edge source="Epreuve" target="PisteCyclable">
+      <point x="-329.5454545454544" y="-116.0" />
+      <point x="204.25367243867322" y="1616.0" />
+      <point x="152.25" y="1616.0" />
+      <point x="18.75" y="27.0" />
+    </edge>
+    <edge source="Action" target="Athlete">
+      <point x="0.0" y="-82.0" />
+      <point x="1021.5594233544239" y="1244.0" />
+      <point x="1038.71041958042" y="1244.0" />
+      <point x="-19.0" y="226.5" />
+    </edge>
+    <edge source="Main" target="PisteCyclable">
+      <point x="-25.692307692307622" y="-27.0" />
+      <point x="318.99211566211636" y="1908.0" />
+      <point x="95.00208624708682" y="1908.0" />
+      <point x="95.00208624708682" y="1616.0" />
+      <point x="77.25" y="1616.0" />
+      <point x="-56.25" y="27.0" />
+    </edge>
+    <edge source="Piscine" target="Terrain">
+      <point x="0.0" y="-105.0" />
+      <point x="471.3030303030303" y="461.0" />
+      <point x="565.1281535131541" y="461.0" />
+      <point x="-105.83333333333337" y="127.0" />
+    </edge>
+    <edge source="Piscine" target="Spectateur">
+      <point x="-114.66666666666674" y="-105.0" />
+      <point x="356.63636363636357" y="461.0" />
+      <point x="301.2390620490628" y="461.0" />
+      <point x="33.57142857142867" y="60.5" />
+    </edge>
+    <edge source="Main" target="Piscine">
+      <point x="-38.53846153846166" y="-27.0" />
+      <point x="306.1459618159623" y="1918.0" />
+      <point x="48.0" y="1918.0" />
+      <point x="48.0" y="731.0" />
+      <point x="385.3030303030303" y="731.0" />
+      <point x="-86.0" y="105.0" />
+    </edge>
+    <edge source="Spectateur" target="Athlete">
+      <point x="100.71428571428578" y="60.5" />
+      <point x="368.3819191919199" y="421.0" />
+      <point x="943.6508957708963" y="421.0" />
+      <point x="943.6508957708963" y="711.0" />
+      <point x="1014.9604195804201" y="711.0" />
+      <point x="-42.75" y="-226.5" />
+    </edge>
+    <edge source="Epreuve" target="PisteCourse">
+      <point x="329.5454545454545" y="-116.0" />
+      <point x="863.3445815295821" y="1616.0" />
+      <point x="1393.469696969697" y="1616.0" />
+      <point x="-17.75" y="27.0" />
+    </edge>
+    <edge source="Main" target="Spectateur">
+      <point x="-64.23076923076928" y="-27.0" />
+      <point x="280.4536541236547" y="1938.0" />
+      <point x="26.0" y="1938.0" />
+      <point x="26.0" y="461.0" />
+      <point x="200.52477633477702" y="461.0" />
+      <point x="-67.14285714285711" y="60.5" />
+    </edge>
+    <edge source="PisteCourse" target="Piste">
+      <point x="0.0" y="-27.0" />
+      <point x="1411.219696969697" y="1477.0" />
+      <point x="797.0594233544239" y="1477.0" />
+      <point x="86.0" y="94.0" />
+    </edge>
+    <edge source="Main" target="Athlete">
+      <point x="64.23076923076928" y="-27.0" />
+      <point x="408.91519258519327" y="1938.0" />
+      <point x="1503.719696969697" y="1938.0" />
+      <point x="1503.719696969697" y="1224.0" />
+      <point x="1152.71041958042" y="1224.0" />
+      <point x="95.0" y="226.5" />
+    </edge>
+    <edge source="PisteCyclable" target="Piste">
+      <point x="0.0" y="-27.0" />
+      <point x="133.5" y="1477.0" />
+      <point x="625.0594233544239" y="1477.0" />
+      <point x="-86.0" y="94.0" />
+    </edge>
+    <edge source="Epreuve" target="NePeutPasAvancerException">
+      <point x="197.72727272727275" y="-116.0" />
+      <point x="731.5263997114004" y="1596.0" />
+      <point x="1312.7114868464873" y="1596.0" />
+      <point x="61.0" y="27.0" />
+    </edge>
+    <edge source="Spectateur" target="Personne">
+      <point x="-58.75" y="-60.5" />
+      <point x="208.91763347763413" y="97.0" />
+      <point x="688.3364868464874" y="97.0" />
+      <point x="-42.375" y="38.5" />
+    </edge>
+    <edge source="Athlete" target="NePeutPasAvancerException">
+      <point x="99.75" y="-226.5" />
+      <point x="1157.46041958042" y="731.0" />
+      <point x="1190.7114868464873" y="731.0" />
+      <point x="-61.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="Epreuve">
+      <point x="12.846153846153811" y="-27.0" />
+      <point x="357.5305772005778" y="1898.0" />
+      <point x="715.0491269841276" y="1898.0" />
+      <point x="181.25" y="116.0" />
+    </edge>
+    <edge source="Athlete" target="Piscine">
+      <point x="-99.75" y="-226.5" />
+      <point x="957.9604195804201" y="731.0" />
+      <point x="557.3030303030303" y="731.0" />
+      <point x="86.0" y="105.0" />
+    </edge>
+    <edge source="Main" target="PisteCourse">
+      <point x="25.692307692307622" y="-27.0" />
+      <point x="370.3767310467316" y="1908.0" />
+      <point x="1441.219696969697" y="1908.0" />
+      <point x="1441.219696969697" y="1616.0" />
+      <point x="1428.969696969697" y="1616.0" />
+      <point x="17.75" y="27.0" />
+    </edge>
+    <edge source="Piste" target="Terrain">
+      <point x="43.0" y="-94.0" />
+      <point x="754.0594233544239" y="1244.0" />
+      <point x="700.6363636363636" y="1244.0" />
+      <point x="700.6363636363636" y="431.0" />
+      <point x="692.1281535131541" y="431.0" />
+      <point x="21.16666666666663" y="127.0" />
+    </edge>
+    <edge source="Epreuve" target="Spectateur">
+      <point x="-131.81818181818176" y="-116.0" />
+      <point x="401.98094516594585" y="1606.0" />
+      <point x="288.8030303030303" y="1606.0" />
+      <point x="288.8030303030303" y="451.0" />
+      <point x="267.6676334776341" y="451.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="Piscine" target="Athlete">
+      <point x="143.33333333333348" y="105.0" />
+      <point x="614.6363636363637" y="721.0" />
+      <point x="986.4604195804201" y="721.0" />
+      <point x="-71.25" y="-226.5" />
+    </edge>
+    <edge source="Piste" target="Spectateur">
+      <point x="-129.0" y="-94.0" />
+      <point x="582.0594233544239" y="1234.0" />
+      <point x="678.6363636363636" y="1234.0" />
+      <point x="678.6363636363636" y="451.0" />
+      <point x="334.81049062049124" y="451.0" />
+      <point x="67.14285714285711" y="60.5" />
+    </edge>
+    <edge source="Epreuve" target="Piscine">
+      <point x="-65.90909090909088" y="-116.0" />
+      <point x="467.89003607503673" y="1616.0" />
+      <point x="465.80303030303037" y="1616.0" />
+      <point x="465.80303030303037" y="731.0" />
+      <point x="442.6363636363637" y="731.0" />
+      <point x="-28.66666666666663" y="105.0" />
+    </edge>
+    <edge source="Athlete" target="Terrain">
+      <point x="-14.25" y="-226.5" />
+      <point x="1043.46041958042" y="721.0" />
+      <point x="1078.46041958042" y="721.0" />
+      <point x="1078.46041958042" y="411.0" />
+      <point x="734.4614868464874" y="411.0" />
+      <point x="63.5" y="127.0" />
+    </edge>
+    <edge source="Athlete" target="Personne">
+      <point x="42.75" y="-226.5" />
+      <point x="1100.46041958042" y="731.0" />
+      <point x="1108.2114868464873" y="731.0" />
+      <point x="1108.2114868464873" y="107.0" />
+      <point x="744.8364868464874" y="107.0" />
+      <point x="14.125" y="38.5" />
+    </edge>
+    <edge source="Epreuve" target="Athlete">
+      <point x="131.81818181818176" y="-116.0" />
+      <point x="665.6173088023094" y="1586.0" />
+      <point x="1149.5594233544239" y="1586.0" />
+      <point x="1149.5594233544239" y="1244.0" />
+      <point x="1076.71041958042" y="1244.0" />
+      <point x="19.0" y="226.5" />
+    </edge>
+    <edge source="Main" target="NameSingleton">
+      <point x="77.0769230769231" y="-27.0" />
+      <point x="421.7613464313471" y="1948.0" />
+      <point x="1629.719696969697" y="1948.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3707664884135473" x="1069.180288461538" y="1101.9999999999998" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
